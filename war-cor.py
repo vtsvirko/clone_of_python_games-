@@ -38,4 +38,8 @@ while deck:
  # display the outcome of each battle, current winnings, and how much left to be won
  event = "The {} {} the {}!".format ( cardA[0], outcome, cardB[0] )
  print ( '{:55.55} ${} to ${}, ${} left to win, {} cards left.'.format ( event, scoreA, scoreB, int(len(deck)/2), int(len(deck)) ) )
- #CHANGED LINE: some additional conditions are needed for the output, such as number of cards left 
+ ###CHANGED LINE: some additional conditions are needed for the output, such as number of cards left 
+# 
+#this changes I want to see
+	
+#
